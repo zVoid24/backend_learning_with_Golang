@@ -12,7 +12,7 @@ func main() {
 	s4[0] = 1
 	s4[1] = 2
 	s4[2] = 69
-	s5 := make([]int, 3, 5) //with make function (length and array and capacity)
+	s5 := make([]int, 3, 5) //with make function (length and array :=and capacity)
 	var s6 []int            //nil slice
 	fmt.Println("Value of array: ", arr, "Value of slice of array: ", s, "Length of slice: ", len(s), "Capacity of slice: ", cap(s))
 	fmt.Println("Value of array: ", arr, "Value of slice of array: ", s, "Value of slice of slice: ", s2, "Length of slice of slice: ", len(s2), "Capacity of slice of slice: ", cap(s2))
